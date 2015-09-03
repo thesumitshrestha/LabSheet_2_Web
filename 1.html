@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>Lab Sheet 2</title>
+</head>
+  <style>
+    body {
+      line-height: 1;
+       margin: 50px;
+    }
+    div {
+      background: whitesmoke;
+      border-radius: 0px;
+      width: 30%;
+      margin:0px auto;
+      border:1px solid white;
+    }
+    h2 {
+    text-align: center;
+	background-color:rgb(6, 117, 68);
+    }
+    table {
+      background: whitesmoke;
+      color: #222;
+      font-size: 13px;
+      width: 100%;
+    }
+    td {
+      border: 1px solid #ccc;
+      color: black;
+      line-height: 22px;
+      text-align: center;
+    }
+    tr:first-child td {
+      color: #222;
+      font-weight: 700;
+    }
+    .selected {
+      background: skyblue;
+      border: 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+    }
+    a{
+    	color:#028BC3;
+    }
+    
+    caption a{
+    	font-size: 12px;
+    }
+    #col{
+    	width:100%;
+    	background-color:rgb(6, 117, 68);
+    }
+    form{
+    	margin:0px auto;
+    	width:40%;
+    	background-color:#D8A836;
+    	padding:4px;
+    }
+  </style>
+<body>
+	
+<div>
+<table>
+<div id="col">
+	<h2> October 2014</h2>
+	</div>
+  <tr>
+    <td>Sun</td>
+    <td>Mon</td>
+    <td>Tue</td>
+    <td>Wed</td>
+    <td>Thu</td>
+    <td>Fri</td>
+    <td>Sat</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td><a href="#">15</a></td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td><a href="#">12</a></td>
+    <td>13</td>
+    <td class="selected">14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td><a href="#">19</a></td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td><a href="#">26</a></td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+    <td></td>
+  </tr>
+</table>
+<br>
+  <caption>
+  		<a href="#"><< Sep</a> <a href="#"><span style="float:right;">Nov >></span></a>
+  </caption>
+</div>
+<br><br><br>
+<form action="#" method="GET">
+ <fieldset>
+  <legend>Meeting Details</legend>
+  Client Name: <input type="text" placeholder="Enter Name"><br>
+  First Meeting? <input type="checkbox"><br>
+  Client Type: <input type="radio" value="school" name="clientType"> School &nbsp;&nbsp;<input type="radio" value="college" name="clientType"> College &nbsp;&nbsp;<input type="radio" value="university" name="clientType"> University &nbsp;&nbsp;<br>
+  Meeting Date: <input type="date"/><br>
+  <br><input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+</body>
+</html>
